@@ -1,0 +1,24 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+//import java.math.*;
+import java.util.regex.*;
+
+public class app {
+
+    public static void main(String[] args) {
+        
+        Scanner sc= new Scanner(System.in);
+        int firstNumber = sc.nextInt();
+        int secondNumber = sc.nextInt(); 
+        if ( firstNumber >= 0 && firstNumber/2 == 0){
+            System.out.println("even");
+            System.out.println("even");
+        }
+        
+        else {
+            System.out.println("odd");
+            System.out.println("odd");
+        }
+    }
+}

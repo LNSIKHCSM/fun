@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int c=sc.nextInt();
+        if(c>30 && c<45)
+        {
+            System.out.print(((float)c*9/5)+32);
+        }
+        else
+        {
+            System.out.print("Invalid Input");
+        }
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}

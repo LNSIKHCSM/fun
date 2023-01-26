@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class App{
+    public static void main(String[] args){
+        int a,b,c;
+        Scanner obj=new Scanner(System.in);
+        a=obj.nextInt();
+        b=obj.nextInt();
+        c=obj.nextInt();
+        if(a>b & b>c){
+            System.out.print(a+""+""+"is greater number");
+        }
+        else if (b>a & a>c){
+            System.out.print(b+""+""+"is greater number");
+        }
+        else{
+            System.out.print(c+""+""+"is greater number");
+        }
+    }
+}

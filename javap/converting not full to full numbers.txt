@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double num1 = sc.nextDouble();
+        double num2 = sc.nextDouble();
+        double num3 = sc.nextDouble();
+
+        int roundedNum1 = (int) Math.ceil(num1);
+        int roundedNum2 = (int) Math.ceil(num2);
+        int roundedNum3 = (int) Math.ceil(num3);
+
+        System.out.println(roundedNum1 + " " + roundedNum2 + " " + roundedNum3);
+    }
+}
